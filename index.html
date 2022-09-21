@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Juego del ahorcado</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <img src="Logo1.png" alt="imagen de alura">
+            <h1 class="h1">Ahorcado Alura</h1>
+        </header>
+        <section>
+            <input class="letra" type="text" id="letra" placeholder="Escribe la letra"> <input class="text" type="button" id="boton" value="Iniciar juego"><br>
+            <input type="button" id="btn-agregar" class="btn-agregar" value="Agregar nueva palabra">
+            <div class="frase" id="frase">
+
+            </div>
+            <div class="vida" id="vida">
+                VIDAS: 4
+            </div>
+        </section>
+        <section>
+            <canvas id="lienzo" class="lienzo">
+
+            </canvas>
+        </section>
+        <footer>
+            <p class="p">Elaborado por Rodrigo De Alba Alvisua</p>
+        </footer>
+    <script src="script.js"></script>
+
+    </body>
+</html>
